@@ -18,6 +18,7 @@ body {
     width: 500px;
     height: 300px;
     border: 4px dotted blueviolet;
+    flex-direction: column;
 }
 
 #container,
