@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>그룹 선택자</title>
+        <style>
+            /* h1,
+            h2 {
+                text-align: center;
+            } */
+            /* h1 태그
+            안 쪽 여백 중 위 여백을 40px 
+            높이 100px
+            가운데 배치
+            */
+            h1 {
+                padding-top: 40px;
+                height: 100px;
+                text-align: center;
+            }
+            p {
+                padding: 10px;
+                letter-spacing: 2px;
+            }
+            
+            /*
+            p태그 2개
+            안쪽 여백 모두에 10px
+            자간(letter-spacing): 2px
+            */
+            .gray {
+                color: grey;
+            }
+            .red {
+                color: red;
+            }
+            /*
+            첫 번째 p태그의 글자색: 회색
+            첫 번째 p태그의 글자색: 빨간색*/
+            button:hover {
+                background-color: skyblue;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- <h1>그룹(Group) 선택자</h1>
+        <h2>
+            선택자를 이용해서 스타일을 정의하다보면, 여러 선택자에 공통된
+            스타일이 사용되는 경우가 있다.
+        </h2>
+        <p>
+            이럴 때에는 쉼표로 구분해서 여러 선택자를 나열한 후 스타일을 한 번만
+            정의하면 소스코드 작성이 안된다.
+        </p>
+        <p>
+            예를 들어 h1 태그와 h2 태그를 사용한 내용을 모두 화면 중앙에
+            정렬하고 싶다면 , 그룹 선택자에 h1, h2 {
+            <strong>text-align: center;</strong> }로 스타일을 정의할 수 있다.
+        </p> -->
+        <h1>H1 태그</h1>
+        <p class="gray">첫 번째 p태그</p>
+        <p class="red">두 번째 p태그</p>
+
+        <div class="color">
+            <fieldset>
+                <button>완료</button>
+            </fieldset>
+        </div>
+    </body>
+</html>
