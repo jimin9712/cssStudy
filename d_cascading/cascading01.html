@@ -8,12 +8,15 @@
             div input {
                 color: hotpink;
             }
+            input::placeholder {
+                color: blue;
+            }
 
             input {
                 color: aqua !important;
             }
             p {
-                color: antiquewhite; 
+                color: antiquewhite;
             }
 
             p {
@@ -29,6 +32,13 @@
                     class="id user"
                     id="user-id"
                     placeholder="아이디"
+                />
+                <input
+                    type="password"
+                    class="pw user"
+                    id="user-password"
+                    placeholder="비밀번호"
+                    style="color: red"
                 />
             </div>
         </form>
