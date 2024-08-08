@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>position 실습</title>
+        <style>
+            #image {
+                margin: 0 auto;
+                width: 220px;
+                height: 315px;
+                background-image: url("https://gangnam.koreaisacademy.com/2023/img/tch/teacher007.png");
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                background-position: center;
+                position: relative;
+                background-color: red;
+            }
+            #image1-1 {
+                width: 40px;
+                height: 40px;
+                position: absolute;
+                right: 20%;
+            }
+            #image1-2 {
+                width: 70px;
+                height: 70px;
+                position: absolute;
+                bottom: 14%;
+                left: 30%;
+            }
+            #image1-3 {
+                width: 170px;
+                height: 200px;
+                position: absolute;
+                bottom: -20%;
+                left: 120%;
+            }
+            #image1-4 {
+                width: 170px;
+                height: 200px;
+                position: absolute;
+                bottom: 40%;
+                left: 120%;
+            }
+            #ee {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="image">
+            <div class="image1">
+                <img src="./images/다운로드 (2).png" id="image1-4" />
+            </div>
+            <div class="image1">
+                <img src="./images/222s.png" id="image1-3" />
+            </div>
+        </div>
+        <div>
+            <h4 id="ee">월드클래스</h4>
+        </div>
+    </body>
+</html>
