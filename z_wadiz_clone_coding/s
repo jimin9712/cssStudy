@@ -1,0 +1,55 @@
+<div
+    class="AvatarSlider_recents__RNsue AvatarSlider_animation__104aA"
+    aria-hidden="true"
+>
+    <div class="avatarWrap avatarWrapAnimation">
+        <div class="avatar">
+            <img
+                class="avatarImage"
+                src="https://www.wadiz.kr/wwwwadiz/green001/sns_profile_pics/20200703213558256_3179528885427303.jpg"
+                loading="lazy"
+                alt=""
+            />
+        </div>
+    </div>
+    <div class="avatarContainer avatarContainerAnimation">
+        <div class="avatar">
+            <img
+                class="avatarImage"
+                src="https://static.wadiz.kr/assets/icon/profile-icon-6.png"
+                loading="lazy"
+                alt=""
+            />
+        </div>
+    </div>
+    <div class=>
+        <div class="avataItem">
+            <img
+                class="avatarImage"
+                src="https://www.wadiz.kr/wwwwadiz/green001/2022/1215/20221215143033157_1738396.jpg"
+                loading="lazy"
+                alt=""
+            />
+        </div>
+    </div>
+    <div class="avatarContainer avatarContainerAnimation">
+        <div class="avataItem">
+            <img
+                class="avatarImage"
+                src="https://www.wadiz.kr/wwwwadiz/green001/2024/0719/20240719144618806_3340415.jpg"
+                loading="lazy"
+                alt=""
+            />
+        </div>
+    </div>
+    <div class="avatarContainer avatarContainerAnimation">
+        <div class="avataItem">
+            <img
+                class="avatarImage"
+                src="https://static.wadiz.kr/assets/icon/profile-icon-6.png"
+                loading="lazy"
+                alt=""
+            />
+        </div>
+    </div>
+</div>
